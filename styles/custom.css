@@ -1,0 +1,104 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans';
+}
+
+/*HEADER*/
+#header .header-bar{
+    background: var(--bg-violet);
+    color: #f1f1f1;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    font-style: normal;
+}
+
+#header .header-bar .container{
+    height: 100%;
+}
+
+#header .header-bar ul{
+    height: 100%;
+}
+
+#header .header-bar ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+#header .header-bar ul li .dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+#header .header-bar ul li .dropdown-content{
+    position: absolute;
+    display: none;
+    max-width: 90px;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-color: #fff;
+}
+
+#header .header-bar ul li .dropdown-content a{
+    color: #0D0E43;
+}
+
+#header .header-bar ul li .button-dropdown{
+    background: none;
+    border: none;
+    color: var(--primary)
+}
+
+
+#header .header-bar ul li .show-dropdown{
+    display: block;
+}
+
+#header .navbar .nav-link {
+    color:#0D0E43;
+}
+
+#header .nav-link{
+    font-family: 'Lato';
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#header .logo{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+
+#header .navbar .nav-link.active{
+    color: var(--pink);
+}
+
+#header .navbar .nav-link path.active{
+    stroke: var(--pink);
+}
+
+#header .form-control{
+    border-radius: 5px 0px 0px 5px;
+    border: 3px solid #E7E6EF;
+    border-right: none;
+    height: 40px;
+}
+
+#header .form-control:focus{
+    box-shadow: none;
+}
+
+#header .search-button{
+    background: var(--pink);
+    border: none;
+    color: var(--primary);
+    border-radius: 0px 5px 5px 0px;
+    height: 40px;
+}
